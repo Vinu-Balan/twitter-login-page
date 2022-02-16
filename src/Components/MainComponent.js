@@ -1,14 +1,21 @@
 import React,{ Component } from 'react';
-import Login from './LoginComponent';
-import Footer from './FooterComponent';
+import Home from './HomeComponent';
+import LoginPage from './LoginPageComponent';
+import { Switch,Route,Redirect} from 'react-router-dom';
 
 class Main extends Component{
     render(){
         return (
             <div>
-                <Login />
-                <Footer />
+               <Switch>
+               <Route exact path='/home' component={Home} />
+               <div className="mr-4">
+               <Route exact path='/loginPage' component={LoginPage} />
+               <Redirect to='/loginPage' />
+               </div>
+                </Switch>
             </div>
+            
         );
     }
 }

@@ -1,0 +1,88 @@
+.bor-b{
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 10px;
+}
+.account-2{
+    cursor: pointer;
+    min-height: 50px;
+    width: 50px;
+    height: 50px;
+  }
+  .account-2:hover{
+    opacity: 0.7;
+  }
+.hov:hover{
+    opacity: 0.8;
+    -webkit-transition-duration: 400ms;
+}
+.typing{
+    font-size: 18px;
+    line-height: normal;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    margin-top: 20px;
+    background: transparent;
+    border: none;
+}
+.typing:focus{
+    outline: none;
+}
+.textbox{
+    height: 50px;
+    overflow: hidden;
+}
+
+.textbox:focus-within{
+    height: 90px;
+    border-bottom: 1px solid lightgray;
+}
+.small-icons{
+    color: rgba(29,161,242,1.00);
+    fill: rgba(29,161,242,1.00);
+    height: 20px;
+    min-height: 20px;
+    min-width: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.small-icons:hover{
+    color: rgb(5, 125, 199);
+    fill: rgb(5, 125, 199);
+    border-radius: 5px;
+    background-color: rgb(220, 239, 255);
+}
+.everybody{
+    font-size: 12px;
+    font-weight: 700;
+    color: rgba(29,161,242,1.00);
+    fill: rgba(29,161,242,1.00);
+}
+.world-icon{
+    color: rgba(29,161,242,1.00);
+    fill: rgba(29,161,242,1.00);
+    height: 17px;
+    min-height: 8px;
+    min-width: 8px;
+    margin-right: 7px;
+}
+.badge-pill{
+    padding: 3px;
+}
+.badge-pill:hover{
+    background-color: #e8f5fe;
+}
+.tweetbutton{
+    outline:none;
+    width: 80px;
+    max-height: 40px;
+    background-color: var(--twitter-color) !important;
+    border: transparent !important;
+    color: white !important;
+    font-weight: 700 !important;
+    text-transform: inherit !important;
+    border-radius: 30px !important;
+    height: 35px !important;
+    cursor: pointer;
+}
+.tweetbutton:focus{
+    outline:none;
+}

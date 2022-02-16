@@ -1,0 +1,22 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+.bor{
+    border: 0.5px solid rgb(221, 221, 221);
+}
+.side{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+.tot-feed{
+    width: 100%;
+}
+
+  @media only screen and (max-width: 600px) {
+    .tot-feed{
+        min-width: 100%;
+    }
+  }
+
